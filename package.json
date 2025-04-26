@@ -1,0 +1,21 @@
+{
+  "name": "libburner-example-ts",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc"
+  },
+  "dependencies": {
+    "@arx-research/libburner": "^0.0.15",
+    "@arx-research/libhalo": "^1.11.0",
+    "websocket": "^1.0.35"
+  },
+  "devDependencies": {
+    "@types/websocket": "^1.0.10",
+    "typescript": "^5.5.3"
+  },
+  "private": true,
+  "packageManager": "yarn@4.9.1"
+}
