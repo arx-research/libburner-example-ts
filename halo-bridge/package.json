@@ -5,7 +5,8 @@
   "type": "module",
   "main": "dist/index.js",
   "scripts": {
-    "build": "tsc"
+    "build": "tsc",
+    "start": "tsx src/index.ts"
   },
   "dependencies": {
     "@arx-research/libburner": "^0.0.15",
@@ -14,6 +15,7 @@
   },
   "devDependencies": {
     "@types/websocket": "^1.0.10",
+    "tsx": "^4.19.4",
     "typescript": "^5.5.3"
   },
   "private": true,
